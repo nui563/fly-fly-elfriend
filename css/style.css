@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: #000;
+    display: flex;
+    overflow: hidden;
+}
+
+#game-container {
+    margin: auto;
+    image-rendering: pixelated;
+    background: #000;
+}
+
+canvas {
+    position: absolute;
+    image-rendering: pixelated;
+}
