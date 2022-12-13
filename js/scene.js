@@ -71,6 +71,7 @@ class Scene {
         if (!this.isStarted && input) {
             this.isStarted = true;
             this.spawnRibbon(game);
+            game.audio.resume();
         }
 
         if (this.isStarted && !this.isGameOver && !(this.frameCount % 100)) {
